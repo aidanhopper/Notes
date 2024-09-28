@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atomic Notes/CPTS 321 Exam 1 Review.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Atomic Notes/CPTS 321 Exam 1 Review.md",
+            "file": "README.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Atomic Notes/CPTS 321 Exam 1 Review.md",
+            "file": "README.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Atomic Notes/CPTS 321 Exam 1 Review.md"
+            "file": "README.md"
           }
         }
       }
@@ -136,13 +136,12 @@
   "active": "1d4c017409f4dd4d",
   "lastOpenFiles": [
     "Templates/Note.md",
-    "Atomic Notes/CPTS 321 Exam 1 Review.md",
-    "README.md",
     "Atomic Notes/newnote.md",
     "Atomic Notes/Untitled.md",
     "Atomic Notes/new note.md",
     "Atomic Notes/MYNEWNOTE.md",
     "Atomic Notes/my new note.md",
+    "README.md",
     "Atomic Notes/My new note.md",
     "Atomic Notes/Untitled 1.md",
     "Templates",
