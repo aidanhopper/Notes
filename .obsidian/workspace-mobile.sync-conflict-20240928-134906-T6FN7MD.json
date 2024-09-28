@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "5fef2887835e6c68",
+    "id": "ef750a7a0a9e5046",
     "type": "split",
     "children": [
       {
-        "id": "a0e2c2ab564a2254",
+        "id": "a01eead09f82ec62",
         "type": "tabs",
         "children": [
           {
-            "id": "4813c917c1dc16fe",
+            "id": "4e9d27314505316e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,11 +25,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "047440162036b5d8",
+    "id": "a7e3f4d2c62b11f9",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "131a7f61ad2fdbc4",
+        "id": "db329be024df86b4",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -35,7 +39,7 @@
         }
       },
       {
-        "id": "f3e813584406b975",
+        "id": "21422feb004e3e41",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -50,7 +54,7 @@
         }
       },
       {
-        "id": "b15ff9fa78e6e887",
+        "id": "23638f1fa2076733",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -61,7 +65,7 @@
         }
       },
       {
-        "id": "02bfb0f2e0b9b197",
+        "id": "49b6cfad5339082e",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -72,15 +76,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "018a344e97102bd7",
+    "id": "ccf8f4a50f721261",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "b737d5a7776fe171",
+        "id": "7369d3dfba3c3de6",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Welcome.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -92,45 +97,56 @@
         }
       },
       {
-        "id": "0ae6b5b8df0bbd82",
+        "id": "6e4781b7a4d22b94",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Welcome.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       },
       {
-        "id": "57cfb91deac63fdd",
+        "id": "fd35c0ef73bd1cde",
         "type": "leaf",
         "state": {
           "type": "outline",
+          "state": {
+            "file": "Welcome.md"
+          }
+        }
+      },
+      {
+        "id": "e8a593a4c8b7b4bf",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
           "state": {}
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "4813c917c1dc16fe",
+  "active": "4e9d27314505316e",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2024-09-28 13.38.05.excalidraw.md",
     "Welcome.md",
     "README.md",
-    "written61.pdf",
-    "Excalidraw/Drawing 2024-09-28 14.06.32.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-28 13.53.03.excalidraw.md"
+    "Excalidraw/Drawing 2024-09-28 13.32.44.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-28 13.31.09.excalidraw.md",
+    "Excalidraw"
   ]
 }
