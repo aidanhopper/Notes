@@ -96,15 +96,18 @@ Abstract class
 
 ## Overriding versus Hiding
 
-Overriding
+**Overriding**
+
 - Occurs when a derived class provides a specific implementation of a method defined in the base class.
 - Requires the base method to be marked as `virtual`, `abstract`, `override`, and the derived class must use the `override` keyword to modify its behavior.
 - The overriding function has the same signature as the base method.
 
-Hiding
+**Hiding**
+
 - Occurs when a derived class defines a method with the same name and signature as the method in the base class, but without the override keyword.
 - To indicate that the derived class is intentionally hiding the base class method, the `new` keyword is used.
 - The base method is still accessible via the base class reference.
+
 ```csharp
 pubic class BaseClass
 {
@@ -173,7 +176,8 @@ Ideally the UI should be flexibile.
 
 # Events
 
-Broadcaster
+**Broadcaster**
+
 ```csharp
 Broadcaster : INotifyPropertyChange
 {
@@ -190,7 +194,8 @@ Broadcaster : INotifyPropertyChange
 }
 ```
 
-Reciever
+**Reciever**
+
 ```csharp
 Reciever
 {
