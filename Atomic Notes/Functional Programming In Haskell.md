@@ -137,6 +137,7 @@ area (Squarea side) = side * side
 
 This can be used to create recursive data types for a tree or other structures.
 
+
 ## Monads
 
 One important note about pure functions is that they always produce the same output regardless of input. As a consequence pure functions cannot have exception handling because exceptions are a side effect. To solve this we use **monads**.
