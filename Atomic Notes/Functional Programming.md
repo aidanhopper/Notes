@@ -43,6 +43,17 @@ output = filter (\x -> isOdd x) input
 ```
 
 ![[Drawing 2024-09-29 12.10.42.excalidraw]]
+
+### Fold
+
+The two fold functions have a key difference. The side of the list they start folding from. The fold function takes three arguments: a function which takes an element of the list and the accumulator, the starting value of the accumulator, and the input list. Foldl starts folding from the left side and foldr starts folding from the right.
+
+**Fold Illustrated**
+
+![[Drawing 2024-09-29 12.18.08.excalidraw]]
+
+## Fundamental Data Structures
+
 ## Monads
 
 One important note about pure functions is that they always produce the same output regardless of input. As a consequence pure functions cannot have exception handling because exceptions are a side effect. To solve this we use **monads**.
