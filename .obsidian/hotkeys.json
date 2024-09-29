@@ -16,5 +16,14 @@
       ],
       "key": "P"
     }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-insert-last-active-transclusion": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
   ]
 }
