@@ -101,6 +101,42 @@ Haskell uses lazy evaluation, meaning epxressions are *only* evaluated when need
 
 This has two big benefits: increased performance and efficient processing of large structures. The drawbacks are that there is some performance overhead and it is harder to debug.
 
+## Types
+
+Types categorize values based on the  data they hold. There are three different ways to define types in haskell. One is using the `type` keyword which creates an alias for other types.
+
+```haskell
+type Name = String
+type Age = Int
+
+greet :: Name -> Age -> String
+greet name age = "Hello, " ++ name ++ ", You are " ++ show age ++ " years old."
+```
+
+Another way to create types is using the `newtype` keyword which defines a distinct type from an existing type.
+
+```haskell
+newtype Age = Age Int
+newtype Name = Name String
+
+showAge :: Age -> String
+showAge (Age a) = "Age is: " ++ show a
+```
+
+`newtype` allows you to differenciate between types with the same underlying structure for added type safety.
+
+The last way to create types is using the `data` keyword which defines *algebraic data types*.
+
+```haskell
+data Shape = Rectangle Float Float | Square Float
+
+area :: Shape -> Float
+area (Rectangle width height) = width * height
+area (Squarea side) = side * side
+```
+
+This can be used to create recursive data types for a tree or other structures.
+
 ## Monads
 
 One important note about pure functions is that they always produce the same output regardless of input. As a consequence pure functions cannot have exception handling because exceptions are a side effect. To solve this we use **monads**.
