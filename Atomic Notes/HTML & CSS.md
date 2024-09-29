@@ -4,13 +4,16 @@ created_date: 2024-09-28
 updated_date: 2024-09-28
 type: note
 tags:
+  - "#webdev"
+  - "#html"
+  - "#css"
 ---
 
 # HTML & CSS
 
 ## Elements and Tags
 
-HTML (HyperText Markup Language) defines the structure and content of webpages using elements and tags. Most elements on an HTML page are pieces of content wrapped in opening and closing HTML tags. A paragraph opening and closing tag looks like this.
+HTML (HyperText Markup Language) defines the structure and content of web pages using elements and tags. Most elements on an HTML page are pieces of content wrapped in opening and closing HTML tags. A paragraph opening and closing tag looks like this.
 
 ```html
 <p>hello world</p>

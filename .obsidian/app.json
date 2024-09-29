@@ -1,4 +1,5 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "Atomic Notes"
+  "newFileFolderPath": "Atomic Notes",
+  "vimMode": true
 }

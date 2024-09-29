@@ -13,7 +13,7 @@ tags:
 - Managed language - dynamically allocated content is automatically freed.
 	- Garbage collection - automatic
 	- Disposal - explicitly invoked
-- Has pointers but arent used generally
+- Has pointers but aren't used generally
 - Object-oriented & event-driven
 - Predominantly statically typed, enforced static and dynamic type checking.
 
@@ -22,7 +22,7 @@ tags:
 - Arrays are managed objects - not just a pointer
 - **Everything** is a class or structure
 - Classes are reference types, structures are value types
-- No globals
+- No global's
 - Variables cannot be used without first being initialized in C#
 
 ## Access Modifiers

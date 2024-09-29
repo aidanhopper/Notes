@@ -9,7 +9,7 @@ tags:
 
 # How to Become a Good Developer
 
-If someone asked me how to become a good developer what would I say? I would tell them to pick a subfield and learn as much as they can about it. Start from a bottom up approach learning the basics first and increasingly specialize. Create projects while you learn about new technologies to solidify them in memory. 
+If someone asked me how to become a good developer what would I say? I would tell them to pick a sub field and learn as much as they can about it. Start from a bottom up approach learning the basics first and increasingly specialize. Create projects while you learn about new technologies to solidify them in memory. 
 
 ## How to Get Good at Web Development
 
