@@ -24,8 +24,25 @@ tags:
 
 The most important higher order functions in Haskell are `map`, `filter`, and the fold functions `foldl` and `foldr`.
 
-The **map** function applies a function as its argument
+### Map
 
+The **map** function applies a function to every single element in a list.
+
+```haskell
+output = map (\x -> x + 1) input
+```
+
+![[Drawing 2024-09-29 12.01.52.excalidraw]]
+
+### Filter
+
+The **filter** function will remove every element of a list that returns false when given an input function.
+
+```haskell
+output = filter (\x -> isOdd x) input
+```
+
+![[Drawing 2024-09-29 12.10.42.excalidraw]]
 ## Monads
 
-One important note about pure functions is that they always produce the same output regardless of input. As a consequence pure functions cannot have exception handling because exceptions are a side effect. To solve this we use **monads**. 
+One important note about pure functions is that they always produce the same output regardless of input. As a consequence pure functions cannot have exception handling because exceptions are a side effect. To solve this we use **monads**.
