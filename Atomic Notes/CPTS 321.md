@@ -210,3 +210,6 @@ Reciever
 	}
 }
 ```
+
+# Testing Internal Methods
+
