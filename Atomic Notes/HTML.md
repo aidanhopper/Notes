@@ -6,10 +6,9 @@ type: note
 tags:
   - "#webdev"
   - "#html"
-  - "#css"
 ---
 
-# HTML & CSS
+# HTML
 
 ## Elements and Tags
 
@@ -66,15 +65,60 @@ The  `<body>` element is the final tab to complete the boilerplate. This tag con
 
 ```html
 <!DOCTYPE html>
-
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>My First Webpage</title>
-	</head>
-	<body>
-		<p>Hello World!</p>
-	</body>
+
+<head>
+	<meta charset="UTF-8">
+	<title>My First Webpage</title>
+</head>
+
+<body>
+	<p>Hello World!</p>
+</body>
+
 </html>
 ```
 
+## Responsive Design
+
+A responsive site is characterized by a web page that can conform to the devices screen. This is especially useful today when screens can vary all different aspect ratios, resolutions, and sizes.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>My Other Webpage</title>
+</head>
+
+<body>
+	<p>Hello World!</p>
+</body>
+
+</html>
+```
+
+This gives the page access to its width enabling you to style elements based on it. For example to style an image differently based on the width of the page in CSS create a new image tag with the style property.
+
+```html
+<img src="my_image.png" style="width:80%;">
+```
+
+You can also show different pictures based on the browser width using the `max-width` property.
+
+```html
+<picture>
+	<source srcset="img_1.png" media="(max-width: 600px)">
+	<source srcset="img_2.png" media="(max-width: 1500px)">
+	<source srcset="img_3.png">
+</picture>
+```
+
+To create responsive text you can use the `vw` unit when styling which refers to viewport width as a percentage (1vw = 1% of the viewport width).
+
+```html
+<h1 style="font-size:10vw">Hello World!</h1>
+```
+
+This is not a comprehensive list of how to create a responsive website but the key takeaway is that everything is styled relative to the size of the screen.
