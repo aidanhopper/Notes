@@ -137,7 +137,29 @@ area (Squarea side) = side * side
 
 This can be used to create recursive data types for a tree or other structures.
 
+## Functors, Applicatives, and Monads
 
-## Monads
+One important note about pure functions is that they always produce the same output regardless of input. As a consequence pure functions cannot have exception handling because exceptions are a side effect. To solve this we use **monads** (& applicatives & functors).
 
-One important note about pure functions is that they always produce the same output regardless of input. As a consequence pure functions cannot have exception handling because exceptions are a side effect. To solve this we use **monads**.
+Think of a monad as another universe, where every type in the normal universe has a alternative in the monad universe. We will use the Maybe monad as an example.
+
+![[Drawing 2024-09-29 13.30.05.excalidraw]]
+
+To alternate types between these two universes we can use maybe specific functions. One such function is `fmap` which takes a function in the normal universe and **lifts** it to the maybe universe `fmap (int -> int) = M int -> M int`. 
+
+A **functor** is a type class that allows you to map a function over a wrapped value which is part of what a monad implements. 
+
+The **applicative** function `<*>` unwraps a `M (int -> int)` function into `M int -> M int`. This can then take a `M int` as input and produce a `M b` as output. The function `pure` takes any argument and lifts it `pure (int -> int) = M (int -> int)`. 
+
+A monad implements the **bind**  `>>=` operation which takes a function `a -> M b` which crosses the universe boundaries and rotates it to be `M a -> M b`
+
+For example
+
+```haskell
+recip :: (Eq a, Fractional a) => a -> Maybe a
+recip x
+	| x == 0    = Nothing
+	| otherwise = Just (1/x)
+
+-- Just 10 >>= recip   returns 0.1
+```
