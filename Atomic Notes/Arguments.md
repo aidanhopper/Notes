@@ -4,6 +4,7 @@ created_date: 2024-09-30
 updated_date: 2024-09-30
 type: note
 tags:
+  - cpts302
 ---
 
 # Arguments
@@ -16,15 +17,15 @@ A valid argument is **sound** when all the premises are true. But an argument ca
 
 An argument can also be **fallacious** if the conclusion is not likely, even when the premises are true. An argument can be valid even if one or more of its premises is false and its conclusion is also false.
 
-## Falacy Types
+## Fallacy Types
 
-There are many different types of falacies.
+There are many different types of fallacies.
 
 1. Ad hominem
 2. Slippery slope
 3. Appeal to authority
 4. False cause fallacy
-5. Fallacy of ambiguity/equivoction
+5. Fallacy of ambiguity/equivocation
 6. False dichotomy
 7. Appeal to people
 8. Virtuality

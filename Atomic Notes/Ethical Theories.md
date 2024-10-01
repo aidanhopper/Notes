@@ -13,7 +13,7 @@ tags:
 There are four primary ethical theories.
 1. **Consequence-based**: Based on the principle of social utility; act to yield the greatest good for the greatest number.
 2. **Duty-based**: based on the principle of duty or obligations humans have to one another and never on the consequences of human behavior.
-3. **Contract-based**: Based on the idea that humans should act to satisfy their own natural desires, but because humans are rational, this will result in a systsem that will protect them from harm by others.
+3. **Contract-based**: Based on the idea that humans should act to satisfy their own natural desires, but because humans are rational, this will result in a system that will protect them from harm by others.
 4. **Character-based**: Based on the idea that individuals with strong moral character will do the right thing.
 
 ## Theories
@@ -22,11 +22,11 @@ There are four primary ethical theories.
 
 Introduces the idea of utility and how maximizing utility will lead to the best outcomes for society. Utility is determined by the amount of happiness it produces.
 
-**Rule Utilitarianism**: Consequce-based on *rules* rather than acts. One critique of rule utilitarianism is that there is no *intrinsic* motivation to be moral (John Stuart Mill).
+**Rule Utilitarianism**: Consequence-based on *rules* rather than acts. One critique of rule utilitarianism is that there is no *intrinsic* motivation to be moral (John Stuart Mill).
 
 **Act Utilitarianism**: Based on acts. One issue with act utilitarianism is that it can justify the exploitation of the minority (Immanuel Kant).
 
-A critique of both is that they are fundamentally flawed because morality is tied to happiness or pleasure and determined by consequences of acts or rules. Morality should not be grounded in consequnces or happiness.
+A critique of both is that they are fundamentally flawed because morality is tied to happiness or pleasure and determined by consequences of acts or rules. Morality should not be grounded in consequences or happiness.
 
 ### Deontology
 
@@ -38,11 +38,11 @@ A duty-based theory that morality must be based on obligations humans have to on
 
 One critique of deontology is that it will not help us in cases where we have two or more *conflicting* duties. This can lead us to moral dilemmas.
 
-To analyze a situtation with duty-based theories you must identify *prima facie* (self-evident) duties that are relevant to a situation.
+To analyze a situation with duty-based theories you must identify *prima facie* (self-evident) duties that are relevant to a situation.
 
 ### Social Contract & Rights-Based Contract Theory
 
-Contract-based ethical theories provide motivation for being moral, unlike utilitarianism or deontology. We establish a "social contractl" where we mutually agree to follow certain rules. To create a just and orderly society, we are motivated to follow established contracts that preserve natural rights (Thomas Hobbes).
+Contract-based ethical theories provide motivation for being moral, unlike utilitarianism or deontology. We establish a "social contract" where we mutually agree to follow certain rules. To create a just and orderly society, we are motivated to follow established contracts that preserve natural rights (Thomas Hobbes).
 
 ### Virtue Ethics
 

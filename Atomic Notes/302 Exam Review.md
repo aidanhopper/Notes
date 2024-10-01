@@ -1,5 +1,5 @@
 ---
-id: 302
+id: "302"
 created_date: 2024-10-01
 updated_date: 2024-10-01
 type: note
@@ -25,4 +25,4 @@ There are four phases to a project life cycle.
 1. **Initiating Phase**: Where the project is identified and selected.
 2. **Planning Phase**: Defines the scope, resources, schedule, and identifies risk. Results in a *baseline plan*.
 3. **Performing Phase**: Longest phase resulting in project deliverables.
-4. **Closing Phase**s: Where everything about the project is discussed, and documents are archived.
+4. **Closing Phases**: Where everything about the project is discussed, and documents are archived.
