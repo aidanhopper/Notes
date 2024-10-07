@@ -58,7 +58,7 @@ The two fold functions have a key difference. The side of the list they start fo
 
 The two fundamental data structures in haskell are the list and the tuple. Lists are **homogeneous** meaning they are a collection of elements of the *same* type. They can also grow dynamically using the `++` and `:` functions because the underlying structure is a persitent data structure (only works because of immutability). Tuples are a fixed-size collection of elements which *can* be different types.
 
-A **persistent data struture** is a linked list that is assigned labels. When prepending to a list and assigning it a new label such as
+A **persistent data structure** is a linked list that is assigned labels. When prepending to a list and assigning it a new label such as
 
 ```haskell
 a = [1, 2, 3, 4]
@@ -82,7 +82,7 @@ the persisent data structure has to create a copy of the previous list in memory
 
 ## List Comprehension
 
-List comprehension is a consise way to construct lists.
+List comprehension is a concise way to construct lists.
 
 ```haskell
 [expression | element <- list, condition]
@@ -97,7 +97,7 @@ You can even have multiple generators to iterate over multiple lists.
 
 ## Lazy Evaluation
 
-Haskell uses lazy evaluation, meaning epxressions are *only* evaluated when needed. This enables haskell to generate infinite lists without running out of memory. To implement this haskell uses a **thunk**, a deferred computation. This means a expression is ready to be evaluated when needed but only evaluated when something else requires it. 
+Haskell uses lazy evaluation, meaning expressions are *only* evaluated when needed. This enables Haskell to generate infinite lists without running out of memory. To implement this Haskell uses a **thunk**, a deferred computation. This means a expression is ready to be evaluated when needed but only evaluated when something else requires it. 
 
 This has two big benefits: increased performance and efficient processing of large structures. The drawbacks are that there is some performance overhead and it is harder to debug.
 
