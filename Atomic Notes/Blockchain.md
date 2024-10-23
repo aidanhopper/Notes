@@ -17,3 +17,8 @@ Commercial users generate transactions. Once those transactions are signed with 
 A Bitcoin is a random number created by miners after completing Nakamoto consensus. Ledgers map coins to an address, which contains the owners public key. Once your private key is lost all the coins are lost.
 
 Signing occurs with SHA-2 (256 bit) hashes using Elliptic Curve Digital Signature Algorithm (ECDSA).
+
+### Nakamoto Consensus
+
+Verifies the integrity of the blockchain. It incentivizes miners by giving coins to the first miner to find an acceptable hash the blockchain. This is also known as *proof of work*.
+
